@@ -32,7 +32,7 @@
                 <artifactId>exec-maven-plugin</artifactId>
                 <version>3.5.0</version>
                 <configuration>
-                    <mainClass>com.elephant.cappacio.Main</mainClass>
+                    <mainClass>Main</mainClass>
                 </configuration>
             </plugin>
 
@@ -44,7 +44,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>com.elephant.cappacio.Main</mainClass>
+                            <mainClass>Main</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
